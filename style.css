@@ -1,0 +1,106 @@
+body {
+    font-family: 'Alkatra', cursive;
+    background: linear-gradient(#c3cfe9 15%, #e2bff0 100%);
+}
+
+h1 {
+    color: rgb(53, 229, 252); /*Define a cor azul para os títulos*/
+}
+
+p {
+ font-size: 16px;/*Define o tamanho da fonte para parágrafos*/
+ font-family: "Roboto", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: linear-gradient(#c3cfe9 15%, #e2bff0 100%);
+}
+
+#titulo{
+    color: blueviolet;
+}
+
+.texto{
+    color: black;
+}
+
+footer{
+    background: linear-gradient(#721d8c 15%, #083469 100%);
+    color:  rgb(53, 229, 252);
+    padding: 16px 0;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: quantidade de pixels necessarias;
+    height: quantidade de pixels necessarias;
+}
+
+
+form button {
+    background: linear-gradient(#721d8c 15%, #083469 100%); /* Cria um fundo de gradiente linear para os botões */
+    color: rgb(53, 229, 252); /* Define a cor do texto dos botões */
+    border: none; /* Remove a borda dos botões */
+    cursor: pointer; /* Define o cursor do mouse como ponteiro para indicar que os botões são clicáveis */
+    width: 100px;
+}
+
+
+input:focus,
+textarea:focus {
+    outline-color: #721d8c; /* Define a cor do contorno quando um campo de entrada ou textarea está focado */
+}
+
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+
+header{
+    padding: 5px 0;
+    background: linear-gradient(#721d8c 15%, #083469 100%);
+    color: rgb(53, 229, 252);
+    margin-bottom: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: normal;
+}
+
+
+
+/* Para colocar cor no link é necessario mencionar a tag a(anchor)*/
+header nav li a{
+    color:  rgb(53, 229, 252) !important;
+    text-decoration: none;
+}
+
+header h2{
+    font-weight: normal;
+    color:  rgb(53, 229, 252) !important;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size:18px;
+   
+}
+/* Para colocar cor no link é necessario mencionar a tag a(anchor)*/
+header nav li a{
+    color:  rgb(53, 229, 252);
+    text-decoration: none;
+}
+
+
